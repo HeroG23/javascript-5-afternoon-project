@@ -208,10 +208,10 @@ function secretNumber() {
 function timeOutCounter() {
   for (var i = 0; i <= 5; i++) {
     function counter(count){
-    setTimeout(function() {
-      console.log(count);
-    }, count * 1000); 
-  }
+      setTimeout(function() {
+        console.log(count);
+      }, count * 1000); 
+    }
   counter(i);
   }
 }
